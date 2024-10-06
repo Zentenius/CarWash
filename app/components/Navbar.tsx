@@ -45,7 +45,8 @@ function Navbar({}: Props) {
     </ul>
   </div>
   <div className="navbar-end">
-  <a className="btn" onClick={() => document.getElementById('my_modal_5')?.showModal()}>Book an appointment</a>
+  <a className="btn" onClick={() => (document.getElementById('my_modal_5') as HTMLDialogElement)?.showModal()}>Book an appointment</a>
+
 
     {/* Open the modal using document.getElementById('ID').showModal() method */}
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
