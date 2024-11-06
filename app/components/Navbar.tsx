@@ -45,25 +45,7 @@ function Navbar({}: Props) {
     </ul>
   </div>
   <div className="navbar-end">
-  <a className="btn" onClick={() => (document.getElementById('my_modal_5') as HTMLDialogElement)?.showModal()}>Book an appointment</a>
-
-
-    {/* Open the modal using document.getElementById('ID').showModal() method */}
-<dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-  <div className="modal-box">
-  <div className="flex w-full flex-col">
-  <div className="card bg-base-300 rounded-box grid h-20 place-items-center">Email <a className='underline' href='grdnotis88@gmail.com'>grdnotis88@gmail.com</a></div>
-  <div className="divider"></div>
-  <div className="card bg-base-300 rounded-box grid h-20 place-items-center">Call <a  className='underline' href='tel:+15615371549'>+1 (561) 537-1549</a></div>
-</div>
-    <div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className="btn">Close</button>
-      </form>
-    </div>
-  </div>
-</dialog>
+  <a className="btn" href='https://linktr.ee/coolrunningsauto'>Book an appointment</a>
   </div>
 </div>
   )

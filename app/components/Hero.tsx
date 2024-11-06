@@ -25,8 +25,8 @@ function Hero({}: Props) {
 
         <div className=' md:flex-row flex-col hidden md:flex'>
             <div className='flex w-1/2 md:flex-col flex-row p-5'>
-                <p className='font-semibold'>We’re all about making your car shine! Open Every Day Except Sunday - <strong>Appointment Only!</strong></p>
-                <h1 className='text-left md:text-7xl text-3xl font-bold w-[22rem] mt-36'>Keep Your <span className='text-red-500'>Car Clean</span> Always</h1>
+                <p className='font-semibold'>Expert Car Detailing Services! Open Daily (Except Sunday) - <strong>Appointment Only!</strong></p>
+                <h1 className='text-left md:text-7xl text-3xl font-bold w-[22rem] mt-36'>Your Car Deserves the <span className='text-red-500'> Best Care!</span></h1>
             </div>
             <div className='flex w-1/2 md:flex-col flex-row h-[30rem]'>
             <div className='w-full h-full rounded-lg  '>

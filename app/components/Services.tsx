@@ -4,27 +4,36 @@ import React, {useState} from 'react'
 
 type Props = {}
 const services = [
-    {
-      title: "Upholstery and Surface Cleaning",
-      description: "Revitalize your vehicle's interior with our comprehensive upholstery and surface cleaning service. We use specialized cleaning agents, applicators, and advanced cleaning devices to remove dirt, stains, and allergens, ensuring a fresh and inviting environment."
-    },
-    {
-      title: "Vinyl and Leather Revitalization",
-      description: "Protect and enhance your vinyl and leather surfaces with our revitalization service. We apply high-quality preservation agents that nourish and protect, ensuring your materials remain supple and resistant to wear, while maintaining their luxurious appearance."
-    },
-    {
-      title: "Fabric Protection Treatment",
-      description: "Keep your fabrics looking pristine with our spot- and stain-resistant treatment. We treat all fabric surfaces with advanced chemicals designed to repel spills and stains, preserving the beauty and integrity of your vehicle's interior components."
-    },
-    {
-      title: "Sticker Removal and Dealer Branding",
-      description: "Enhance your vehicle's appearance with our sticker removal and dealer branding service. We carefully remove factory stickers and protective items from new vehicles, replacing them with dealership decal stickers and logo plates for a polished, professional look."
-    },
-    {
-      title: "Quality Assurance Inspection",
-      description: "Your satisfaction is our priority. Our quality assurance inspection service ensures that every detail of our work meets the highest standards. We meticulously inspect the results of our services to guarantee that you leave with a vehicle that exceeds your expectations."
-    }
-  ]
+  {
+      title: "Interior Detailing",
+      description: "Transform your vehicle's interior with our expert detailing service. We clean, polish, and restore every surface for a fresh, inviting space."
+  },
+  {
+      title: "Polish",
+      description: "Enhance your car's shine with our professional polishing service. We remove imperfections and leave your paint looking flawless."
+  },
+  {
+      title: "Waxing",
+      description: "Protect your vehicle's exterior with our premium waxing service, ensuring a long-lasting shine and defense against the elements."
+  },
+  {
+      title: "Ceramic Coating",
+      description: "Provide superior protection for your car’s paint with our ceramic coating service, offering durability and a stunning finish."
+  },
+  {
+      title: "Engine Detailing",
+      description: "Keep your engine clean and running smoothly with our meticulous engine detailing service, enhancing performance and appearance."
+  },
+  {
+      title: "Headlight Restoration",
+      description: "Improve visibility and safety with our headlight restoration service, removing fog and yellowing for clearer lights."
+  },
+  {
+      title: "Restoration",
+      description: "Revive your vehicle's beauty with our comprehensive restoration services, bringing back its original charm."
+  }
+];
+
 
 const Services = (props: Props) => {
     const [currentService, setCurrentService] = useState(0)

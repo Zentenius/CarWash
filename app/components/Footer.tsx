@@ -6,7 +6,7 @@ type Props = {}
 
 function Footer({}: Props) {
   return (
-    <footer id='footer' className="footer text-white bg-red-500 p-10">
+    <footer id='footer' className="footer text-white bg-red-500 p-10 mt-10">
   <aside>
     <Image
     src={'/logo.png'}
