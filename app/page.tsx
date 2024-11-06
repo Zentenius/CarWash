@@ -13,7 +13,6 @@ export default function Home() {
       <Hero/>
       <Services/>
       <Misc/>
-      <ContactForm/>
       <Footer/>
 
     </main>

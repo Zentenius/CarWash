@@ -19,7 +19,7 @@ export async function POST(request: Request) {
       }>;
     } = {
       from: 'Contact Form <onboarding@resend.dev>',
-      to: ['amaricross111@gmail.com'],
+      to: ['grdnotis88@gmail.com'],
       subject: `New Contact Form Submission: ${inquiryType}`,
       html: `
         <h2>New Contact Form Submission</h2>

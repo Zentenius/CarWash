@@ -56,7 +56,7 @@ export default function ContactForm() {
         },
       })
 
-      if (response.ok) {
+      if (response.status === 200) {
         // Reset form
         event.currentTarget.reset()
         setFile(null)
